@@ -27,10 +27,16 @@ body {
 }
 
 .titulo {
-    font-size: 250%;
+    font-size: 150%;
     color:#bbe1fa;
     text-align: center;
     margin-bottom: 20px;
+}
+.tituloo{
+    font-size: 250%;
+    color: #1b262c;
+    text-align: center;
+    margin-bottom: 20xp;
 }
 
 #login {
@@ -130,83 +136,28 @@ body {
     color: #3282b8;
 }
 
-/*INICIO*/
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-img{
-    width: 950px;
-}
-#slider{
-    width: 950px;
-    margin: 10px auto;
-    overflow: hidden;
-}
-#slider ul{
-    list-style: none;
-    width: auto;
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  .background {
+    background-color: #A7D129;
+    height: 200px;
     display: flex;
-    animation: slide 10s infinite alternate;
-}
-@keyframes slide{
-    0% {margin-left: 0px;}
-    40% {margin-left: 0px;}
-
-    45% {margin-left: -950px;}
-    70% {margin-left: -950px;}
-
-    75% {margin-left: -1900px;}
-    100% {margin-left: -1900px;}
-}
-#menu-h{
-    max-width: 100%;
-    min-height: auto;
-    background: black;
-    margin: auto;
-    text-align: center;
-}
-#menu-h ul{
-    list-style: none;
-    display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
 }
-#menu-h a{
+.main-text {
+    font-family: 'Courier New', cursive;
+    font-size: 3em;
     color: white;
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-#menu-h a:hover{
-    background: #283747;
-}
-#contenido{
-    max-width: 950px;
-    min-height: 400px;
-    margin: auto;
-    border: 1px solid black;
-    background: #3282b8;
-}
-.contenido {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.contenido h1 {
-    color: #333;
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.contenido p {
-    color: #666;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+.sub-text {
+    font-family: 'Courier New', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
